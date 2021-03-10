@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samsung"
+        android:layout_gravity="left"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt12"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imgr"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+android:layout_below="@id/delete"
+        android:layout_marginLeft="211dp"
+        android:layout_toRightOf="@id/txt12"
+        android:src="@drawable/images" />
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/ic_baseline_close_24"
+        android:textSize="20dp" />
+</RelativeLayout>
